@@ -76,7 +76,7 @@ public class DiscoFloor : MonoBehaviour
             float saturationMin = 0.5f;
             float valueMin = 0.5f;
             Color emissionColor = Random.ColorHSV(hueMin, hueMax, saturationMin, 1f, valueMin, 1f);
-            return emissionColor * Mathf.LinearToGammaSpace(2.0f); // Apply gamma space conversion for brighter emission
+            return emissionColor * Mathf.LinearToGammaSpace(20.0f); // Apply gamma space conversion for brighter emission
         }
     }
 }
