@@ -3,9 +3,9 @@ using System.Collections;
 
 public class DiscoFloor : MonoBehaviour
 {
-    public GameObject[] floorTiles; // Array of floor tile GameObjects
-    public float changeInterval = 2.0f; // Maximum time between color changes in seconds
-    public float transitionDuration = 1.0f; // Duration of the color transition
+    public GameObject[] floorTiles; 
+    public float changeInterval = 2.0f; 
+    public float transitionDuration = 1.0f; 
 
     private void Start()
     {
@@ -62,7 +62,7 @@ public class DiscoFloor : MonoBehaviour
     private Color GetRandomColorOrBlack()
     {
         // Chance of the tile turning off (black)
-        float chanceOfBlack = 0.1f; // 10% chance for a tile to turn black, adjust as needed
+        float chanceOfBlack = 0.1f; // 10% chance for a tile to turn black
 
         if (Random.value < chanceOfBlack)
         {
