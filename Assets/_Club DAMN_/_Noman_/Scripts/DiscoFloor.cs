@@ -62,7 +62,7 @@ public class DiscoFloor : MonoBehaviour
     private Color GetRandomColorOrBlack()
     {
         // Chance of the tile turning off (black)
-        float chanceOfBlack = 0.1f; // 10% chance for a tile to turn black
+        float chanceOfBlack = 0.6f; // 10% chance for a tile to turn black
 
         if (Random.value < chanceOfBlack)
         {
@@ -76,7 +76,7 @@ public class DiscoFloor : MonoBehaviour
             float saturationMin = 0.5f;
             float valueMin = 0.5f;
             Color emissionColor = Random.ColorHSV(hueMin, hueMax, saturationMin, 1f, valueMin, 1f);
-            return emissionColor * Mathf.LinearToGammaSpace(20.0f); // Apply gamma space conversion for brighter emission
+            return emissionColor * Mathf.LinearToGammaSpace(30.0f); // Apply gamma space conversion for brighter emission
         }
     }
 }
