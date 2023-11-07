@@ -13,15 +13,18 @@ public class Bounceranimscript : MonoBehaviour
     [SerializeField]
     private BoxCollider triggerBoxForId;
 
-    [SerializeField]
-    private GameObject IDcard;
+    public Gamemanager1 gamemanager1;
 
 
-
+    void Start()
+    {
+        gamemanager1 = FindObjectOfType<Gamemanager1>();
+    }
 
     void TalkingtoIdle()
     {
         animbouncer.SetBool("Istalking", false);
+        gamemanager1.IsTalkingAnimationComplete = true; // Sätt flaggan när animationen är klar.
     }
 
     private void OnTriggerEnter(Collider other)
@@ -30,7 +33,6 @@ public class Bounceranimscript : MonoBehaviour
         {
             animbouncer.SetBool("Istalking", true);
             triggerBoxForBouncer.enabled = false;
-            IDcard.SetActive(true);
             triggerBoxForId.enabled = true;
 
         }

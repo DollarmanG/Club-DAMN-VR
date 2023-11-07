@@ -14,7 +14,19 @@ public class Bounceropens : MonoBehaviour
     private BoxCollider triggerBoxForId;
 
     [SerializeField]
+    private BoxCollider triggerBoxforHello;
+
+    [SerializeField]
     private BoxCollider BoxcolliderforWall;
+
+    private bool isOpened = false;
+
+    public Gamemanager1 gamemanager1;
+
+    void Start()
+    {
+        gamemanager1 = FindObjectOfType<Gamemanager1>();
+    }
 
 
     void Backtoidle()
@@ -24,16 +36,13 @@ public class Bounceropens : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("IDcard"))
+        if (!isOpened && other.gameObject.CompareTag("IDcard") && gamemanager1.IsTalkingAnimationComplete)
         {
             animbouncer.SetBool("Isopening", true);
             rope.SetBool("Ropeopen", true);
             triggerBoxForId.enabled = false;
             BoxcolliderforWall.enabled = false;
-
-
-
-
+            isOpened = true;
         }
     }
 
