@@ -13,31 +13,47 @@ public class Bartendergivingbeer : MonoBehaviour
     [SerializeField]
     private BoxCollider triggerBoxForId;
 
-    private bool isGivingBeer = false;
+    [SerializeField]
+    private BoxCollider triggerBoxForHello;
+
+    public Transform beerSpawnPoint; // Skapa en referens till spawnplatsen i Unity-editorn
+
+    public Gamemanager1 gamemanager1;
+
+    private bool beerSpawned = true; // En bool-variabel för att kontrollera om ölen har spawnat
+
+    void Start()
+    {
+        gamemanager1 = FindObjectOfType<Gamemanager1>();
+    }
 
     private void Backtoidlebar2()
     {
         bartendergivesbeer.SetBool("Isgivingbeer", false);
+        triggerBoxForId.enabled = true;
+        if (!beerSpawned)
+        {
+            SpawnBeerPrefab(); // Anropa funktionen för att skapa ölen om den inte redan har spawnat
+            beerSpawned = true; // Markera att ölen har spawnat
+        }
+    }
+
+
+
+    public void SpawnBeerPrefab()
+    {
+        Instantiate(beerPrefab, beerSpawnPoint.position, beerSpawnPoint.rotation);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!isGivingBeer && other.gameObject.CompareTag("IDcard"))
+        if (other.gameObject.CompareTag("IDcard") && gamemanager1.isWaveingAnimationComplete)
         {
             bartendergivesbeer.SetBool("Isgivingbeer", true);
             triggerBoxForId.enabled = false;
-            isGivingBeer = true;
-
-            // Starta en Coroutine för att aktivera beerPrefab efter 3 sekunder.
-            StartCoroutine(ActivateBeerPrefabAfterDelay(6f));
+            triggerBoxForHello.enabled = false;
         }
     }
 
-    private IEnumerator ActivateBeerPrefabAfterDelay(float delay)
-    {
-        yield return new WaitForSeconds(delay);
 
-        // Aktivera beerPrefab efter fördröjning.
-        beerPrefab.SetActive(true);
-    }
 }

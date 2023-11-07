@@ -13,27 +13,33 @@ public class Bartendersayshello : MonoBehaviour
     [SerializeField]
     private BoxCollider triggerBoxForId;
 
-    [SerializeField]
-    private GameObject IDcard;
+    private bool saidhello = false;
+
+    public Gamemanager1 gamemanager1;
 
 
+    void Start()
+    {
+        gamemanager1 = FindObjectOfType<Gamemanager1>();
+    }
 
     void Backtoidlebar1()
     {
 
         bartenderwaveing.SetBool("Iswaveing", false);
+        gamemanager1.isWaveingAnimationComplete = true; // Sätt flaggan när animationen är klar.
 
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (!saidhello && other.gameObject.CompareTag("Player"))
         {
             bartenderwaveing.SetBool("Iswaveing", true);
             triggerBoxForBartender.enabled = false;
-            IDcard.SetActive(true);
             triggerBoxForId.enabled = true;
-
+            saidhello = true;
+            
         }
     }
 }
