@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{899b2da5-c42c-4287-ae6e-71d5399e3f17}">
+		<property name="assetPath">
+			<value>Janji Heroes Tonight feat. Johnning.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>208.10400000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bbf99634-4d06-489c-82fc-7c91c5a74336}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8863380113161488248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Songs/Alan Walker Dreamer
+  m_EditorClassIdentifier: 
+  Path: event:/Songs/Alan Walker Dreamer
+  Guid:
+    Data1: 228358651
+    Data2: 1116224685
+    Data3: 478689164
+    Data4: -775311533
+  Banks:
+  - {fileID: -413460099628064021}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 155088
+--- !u!114 &-6598773426948220077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Songs/Elektronomia - Sky High
+  m_EditorClassIdentifier: 
+  Path: event:/Songs/Elektronomia - Sky High
+  Guid:
+    Data1: -976096807
+    Data2: 1091672179
+    Data3: -730500431
+    Data4: -2096924219
+  Banks:
+  - {fileID: -413460099628064021}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 238056
+--- !u!114 &-4570819953609201079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DjBoard/On
+  m_EditorClassIdentifier: 
+  Path: event:/DjBoard/On
+  Guid:
+    Data1: -1562795170
+    Data2: 1256775056
+    Data3: 1884154289
+    Data4: 1710355261
+  Banks:
+  - {fileID: 4274644232575060746}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7500
+--- !u!114 &-3526431856789101722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: FMODSongs/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638350072346991736
+  FileSizes:
+  - Name: Desktop
+    Value: 1126
+  Exists: 1
+--- !u!114 &-413460099628064021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Songs.bank
+  m_EditorClassIdentifier: 
+  Path: FMODSongs/Build/Desktop/Songs.bank
+  Name: Songs
+  StudioPath: bank:/Songs
+  lastModified: 638350072348673696
+  FileSizes:
+  - Name: Desktop
+    Value: 18182976
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -3526431856789101722}
+  - {fileID: 4274644232575060746}
+  - {fileID: -413460099628064021}
+  EditorEvents:
+  - {fileID: -6598773426948220077}
+  - {fileID: -8863380113161488248}
+  - {fileID: 6000783890641122232}
+  - {fileID: 7865112037979664433}
+  - {fileID: 1165622056343338930}
+  - {fileID: -4570819953609201079}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 4274644232575060746}
+  StringsBanks:
+  - {fileID: -3526431856789101722}
+  cacheTime: 638350072348673696
+  cacheVersion: 131608
+--- !u!114 &1165622056343338930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Songs/Warriyo - Mortals (feat. Laura Brehm)
+  m_EditorClassIdentifier: 
+  Path: event:/Songs/Warriyo - Mortals (feat. Laura Brehm)
+  Guid:
+    Data1: -2128740325
+    Data2: 1082462583
+    Data3: 395026614
+    Data4: 1801301813
+  Banks:
+  - {fileID: -413460099628064021}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 230040
+--- !u!114 &4274644232575060746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODSongs/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638350072346976547
+  FileSizes:
+  - Name: Desktop
+    Value: 461184
+  Exists: 1
+--- !u!114 &6000783890641122232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Songs/Cartoon - Why We Lose
+  m_EditorClassIdentifier: 
+  Path: event:/Songs/Cartoon - Why We Lose
+  Guid:
+    Data1: 1023855466
+    Data2: 1248465714
+    Data3: 166605956
+    Data4: -115498368
+  Banks:
+  - {fileID: -413460099628064021}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 213072
+--- !u!114 &7865112037979664433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Songs/Diffrent Heaven & EH!De - My Heart
+  m_EditorClassIdentifier: 
+  Path: event:/Songs/Diffrent Heaven & EH!De - My Heart
+  Guid:
+    Data1: 1519509205
+    Data2: 1150701102
+    Data3: -48546384
+    Data4: -1126224082
+  Banks:
+  - {fileID: -413460099628064021}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 267096
