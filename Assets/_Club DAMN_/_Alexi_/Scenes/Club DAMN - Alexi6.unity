@@ -36341,7 +36341,7 @@ MonoBehaviour:
   rope: {fileID: 6175587908255344146}
   triggerBoxForId: {fileID: 1993938806517414827}
   triggerBoxforHello: {fileID: 1993938806517414825}
-  BoxcolliderforWall: {fileID: 1993938806517414824}
+  BoxcolliderforWall: {fileID: 3344792085584031151}
   gamemanager1: {fileID: 0}
 --- !u!4 &2001079313588756188
 Transform:
