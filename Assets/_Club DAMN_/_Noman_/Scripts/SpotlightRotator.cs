@@ -6,7 +6,7 @@ public class SpotlightRotator : MonoBehaviour
 {
     public List<GameObject> objectsToRotate;
     public float rotationSpeed = 1.0f;
-    public float changeInterval = 2.0f;
+    public float changeInterval = 2.0f; 
 
     private Dictionary<GameObject, Quaternion> targetRotations = new Dictionary<GameObject, Quaternion>();
     private float timer = 0.0f;
@@ -44,6 +44,7 @@ public class SpotlightRotator : MonoBehaviour
 
     Quaternion RandomRotation()
     {
+        
         return Quaternion.Euler(Random.Range(-45f, 45f), Random.Range(-45f, 45f), 0);
     }
 }
