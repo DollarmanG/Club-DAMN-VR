@@ -231,7 +231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6767305}
   m_Layer: 5
-  m_Name: XRstuff
+  m_Name: XRRig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18661,7 +18661,7 @@ GameObject:
   - component: {fileID: 817912897}
   - component: {fileID: 817912896}
   m_Layer: 0
-  m_Name: LogoBox
+  m_Name: ClubDAMN
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18738,13 +18738,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 817912895}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.944373, y: 0.7488444, z: 6.9264107}
+  m_LocalPosition: {x: 7.476475, y: 0.7796309, z: -7.000764}
   m_LocalScale: {x: 1.5, y: 0.45, z: 0.099999994}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1205065504}
-  m_Father: {fileID: 1462287671}
-  m_RootOrder: 11
+  m_Father: {fileID: 2038169990}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &819622049
 GameObject:
@@ -30469,7 +30469,7 @@ Transform:
   - {fileID: 1282507327}
   - {fileID: 944876573}
   m_Father: {fileID: 1462287671}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &977843597
 GameObject:
@@ -36267,7 +36267,6 @@ Transform:
   - {fileID: 2038169990}
   - {fileID: 2975355100231958793}
   - {fileID: 1950382854}
-  - {fileID: 817912899}
   - {fileID: 1515902147}
   - {fileID: 975558232}
   m_Father: {fileID: 5650923113575318219}
@@ -36650,7 +36649,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1462287671}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1534016910
 GameObject:
@@ -46562,6 +46561,7 @@ Transform:
   - {fileID: 49249381}
   - {fileID: 254590128}
   - {fileID: 4908319}
+  - {fileID: 817912899}
   m_Father: {fileID: 1462287671}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -57248,7 +57248,7 @@ GameObject:
   - component: {fileID: 543450652157783114}
   - component: {fileID: 5866666020498601520}
   m_Layer: 0
-  m_Name: Oskar1
+  m_Name: Oskar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57265,7 +57265,7 @@ GameObject:
   - component: {fileID: 543450652803355713}
   - component: {fileID: 5866666021111303739}
   m_Layer: 0
-  m_Name: Lucy1
+  m_Name: Lucy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57283,7 +57283,7 @@ GameObject:
   - component: {fileID: 5866666021664819282}
   - component: {fileID: 5866666021664819283}
   m_Layer: 0
-  m_Name: Dennis1
+  m_Name: Dennis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57759,7 +57759,7 @@ GameObject:
   - component: {fileID: 493979018190731895}
   - component: {fileID: 5781174518718193677}
   m_Layer: 0
-  m_Name: Carl1
+  m_Name: Carl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67315,7 +67315,7 @@ GameObject:
   - component: {fileID: 9049269040501746286}
   - component: {fileID: 9049269040501746287}
   m_Layer: 0
-  m_Name: Julia1
+  m_Name: Julia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -71787,7 +71787,7 @@ GameObject:
   - component: {fileID: 8376375259967644872}
   - component: {fileID: 8376375259967644873}
   m_Layer: 0
-  m_Name: Henry1
+  m_Name: Henry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -80817,7 +80817,7 @@ GameObject:
   - component: {fileID: 7158942864803981320}
   - component: {fileID: 7158942864803981321}
   m_Layer: 0
-  m_Name: Mathias1
+  m_Name: Mathias
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -84021,7 +84021,7 @@ GameObject:
   - component: {fileID: 2178546758601393952}
   - component: {fileID: 5250049724408274267}
   m_Layer: 0
-  m_Name: Martin1
+  m_Name: Martin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90794,7 +90794,7 @@ GameObject:
   - component: {fileID: 931742781825593885}
   - component: {fileID: 6489154672211945576}
   m_Layer: 0
-  m_Name: Alexi1
+  m_Name: Alexi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -100517,7 +100517,7 @@ GameObject:
   - component: {fileID: 4469872148434756770}
   - component: {fileID: 7559294026925506265}
   m_Layer: 0
-  m_Name: Jesper1
+  m_Name: Jesper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -100719,7 +100719,7 @@ GameObject:
   - component: {fileID: 4151019989938786189}
   - component: {fileID: 8033100554276509176}
   m_Layer: 0
-  m_Name: Mustafa1
+  m_Name: Mustafa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -103168,7 +103168,7 @@ GameObject:
   - component: {fileID: 3797854774973311379}
   - component: {fileID: 7574857433651325268}
   m_Layer: 0
-  m_Name: Erik1
+  m_Name: Erik
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
