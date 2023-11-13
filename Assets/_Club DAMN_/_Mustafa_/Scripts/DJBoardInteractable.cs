@@ -7,19 +7,16 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class DJBoardInteractable : MonoBehaviour
 {
     [SerializeField] Transform visualTarget;
+    [SerializeField] float resetSpeed = 5;
+    [SerializeField] Vector3 localAxis;
+    [SerializeField] float fallowAngel;
+
     private XRBaseInteractable interactable;
     private Vector3 offset;
     private Vector3 initialLocalPose;
-    [SerializeField] float resetSpeed = 5;
-    [SerializeField] Vector3 localAxis;
     private Transform pokeAttachTransfomr;
     private bool isFallowign = false;
     private bool freeze = false;
-
-    [SerializeField] float fallowAngel;
-
-
-
 
     // Start is called before the first frame update
     void Start()
