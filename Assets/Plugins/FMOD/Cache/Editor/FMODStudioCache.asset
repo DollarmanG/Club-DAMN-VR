@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: FMODSongs/Build/Desktop/Songs.bank
   Name: Songs
   StudioPath: bank:/Songs
-  lastModified: 638354683743413954
+  lastModified: 638355262302337798
   FileSizes:
   - Name: Desktop
     Value: 18188000
@@ -216,10 +216,10 @@ MonoBehaviour:
   Path: FMODSongs/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638354683738588332
+  lastModified: 638355262300884342
   FileSizes:
   - Name: Desktop
-    Value: 525376
+    Value: 1576928
   Exists: 1
 --- !u!114 &-578489708696972433
 MonoBehaviour:
@@ -294,6 +294,8 @@ MonoBehaviour:
   - {fileID: -1902901415155879733}
   - {fileID: -7903148061846137326}
   - {fileID: 3301803411143532502}
+  - {fileID: 793823960392003726}
+  - {fileID: 701562119263432563}
   EditorParameters:
   - {fileID: 8510551959067009310}
   - {fileID: 6368983345611029724}
@@ -301,7 +303,7 @@ MonoBehaviour:
   - {fileID: -697822394611295908}
   StringsBanks:
   - {fileID: 8807817038393355356}
-  cacheTime: 638354683743413954
+  cacheTime: 638355262302337798
   cacheVersion: 131608
 --- !u!114 &12515180950728466
 MonoBehaviour:
@@ -359,6 +361,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 213072
+--- !u!114 &701562119263432563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Ambi
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Ambi
+  Guid:
+    Data1: -1722050140
+    Data2: 1127438885
+    Data3: -1572660587
+    Data4: 154210236
+  Banks:
+  - {fileID: -697822394611295908}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 109776
+--- !u!114 &793823960392003726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/BottleBrake
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/BottleBrake
+  Guid:
+    Data1: 1009517867
+    Data2: 1190063627
+    Data3: 1794653834
+    Data4: -378579775
+  Banks:
+  - {fileID: -697822394611295908}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1384
 --- !u!114 &1512305218034026152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -603,8 +659,8 @@ MonoBehaviour:
   Path: FMODSongs/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638354683738643549
+  lastModified: 638355262300909670
   FileSizes:
   - Name: Desktop
-    Value: 1358
+    Value: 1462
   Exists: 1

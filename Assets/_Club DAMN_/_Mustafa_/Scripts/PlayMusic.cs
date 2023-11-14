@@ -32,7 +32,7 @@ public class PlayMusic : MonoBehaviour
         {
             trackToPlay = Random.Range(0, tracks.Count);
             tracks[trackToPlay].Play();
-            textColor.color = Color.green;
+            //   textColor.color = Color.green;
         }
 
         else if (result == FMOD.RESULT.OK)

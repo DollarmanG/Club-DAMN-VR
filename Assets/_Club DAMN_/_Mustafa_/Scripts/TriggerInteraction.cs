@@ -21,4 +21,14 @@ public class TriggerInteraction : MonoBehaviour
 
         }
     }
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            alanWalker.SetActive(false);
+
+        }
+    }
 }
