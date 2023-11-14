@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{193017ed-56f3-4990-be37-931af8453323}">
+		<property name="name">
+			<value>Pitch</value>
+		</property>
+		<relationship name="folder">
+			<destination>{20e1b617-ec9b-4f59-8461-2c0e232e0dde}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{c52304a8-f2ed-4ae1-92e0-eb46a79bc2d9}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{c52304a8-f2ed-4ae1-92e0-eb46a79bc2d9}">
+		<property name="minimum">
+			<value>-12</value>
+		</property>
+		<property name="maximum">
+			<value>12</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
