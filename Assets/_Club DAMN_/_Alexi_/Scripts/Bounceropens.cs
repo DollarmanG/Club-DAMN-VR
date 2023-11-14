@@ -6,7 +6,7 @@ public class Bounceropens : MonoBehaviour
 {
     [SerializeField]
     private Animator animbouncer;
-    
+
     [SerializeField]
     private Animator rope;
 
@@ -39,6 +39,7 @@ public class Bounceropens : MonoBehaviour
         if (!isOpened && other.gameObject.CompareTag("IDcard") && gamemanager1.IsTalkingAnimationComplete)
         {
             animbouncer.SetBool("Isopening", true);
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Characters/Anthony Thank");
             rope.SetBool("Ropeopen", true);
             triggerBoxForId.enabled = false;
             BoxcolliderforWall.enabled = false;

@@ -24,7 +24,7 @@ public class Bounceranimscript : MonoBehaviour
     void TalkingtoIdle()
     {
         animbouncer.SetBool("Istalking", false);
-        gamemanager1.IsTalkingAnimationComplete = true; 
+        gamemanager1.IsTalkingAnimationComplete = true;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -32,6 +32,7 @@ public class Bounceranimscript : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             animbouncer.SetBool("Istalking", true);
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Characters/Anthony Leg");
             triggerBoxForBouncer.enabled = false;
             triggerBoxForId.enabled = true;
 
