@@ -19,4 +19,8 @@ public class MenuManager : MonoBehaviour
         SceneManager.LoadScene(name);
     }
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 }
