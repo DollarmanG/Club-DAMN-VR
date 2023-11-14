@@ -13,7 +13,7 @@ public class MusicChanger : MonoBehaviour
     [SerializeField] private Transform volumeMinPoint, volumeMaxPoint, volumeCurrentPoint;
     [SerializeField] private Transform pitchMinPoint, pitchMaxPoint, pitchCurrentPoint;
 
-    [SerializeField] private float volumeFloatValue, bassFloatValue, pitchFloatValue;
+    private float volumeFloatValue, bassFloatValue, pitchFloatValue;
 
     private FMOD.Studio.Bus music;
 
@@ -30,7 +30,6 @@ public class MusicChanger : MonoBehaviour
         VolumeSlider();
         Pitchlider();
 
-        //   FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Pitch", pitch);
         BassSlider();
 
     }
