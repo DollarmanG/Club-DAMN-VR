@@ -16,11 +16,11 @@ public class Bartendergivingbeer : MonoBehaviour
     [SerializeField]
     private BoxCollider triggerBoxForHello;
 
-    public Transform beerSpawnPoint; // Skapa en referens till spawnplatsen i Unity-editorn
+    public Transform beerSpawnPoint; // Create a reference to the spawn location in the Unity editor
 
     public Gamemanager1 gamemanager1;
 
-    private bool beerSpawned = true; // En bool-variabel för att kontrollera om ölen har spawnat
+    private bool beerSpawned = true; // A bool variable to check if the beer has spawned
 
     void Start()
     {
@@ -33,8 +33,8 @@ public class Bartendergivingbeer : MonoBehaviour
         triggerBoxForId.enabled = true;
         if (!beerSpawned)
         {
-            SpawnBeerPrefab(); // Anropa funktionen för att skapa ölen om den inte redan har spawnat
-            beerSpawned = true; // Markera att ölen har spawnat
+            SpawnBeerPrefab(); // Call the function to spawn the beer if it hasn't already spawned
+            beerSpawned = true; // Mark that the beer has spawned
         }
     }
 

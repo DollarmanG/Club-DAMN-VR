@@ -19,5 +19,5 @@ public class Gamemanager1 : MonoBehaviour
         set { isWaveingAnimationComplete = value; }
     }
 
-    // Lägg till andra nödvändiga funktioner för att hantera spelets logik här.
+
 }

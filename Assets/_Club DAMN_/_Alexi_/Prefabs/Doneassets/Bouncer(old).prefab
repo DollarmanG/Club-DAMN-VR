@@ -2739,7 +2739,7 @@ GameObject:
   - component: {fileID: 8737352981726112767}
   - component: {fileID: 8737352981726112766}
   m_Layer: 0
-  m_Name: SkelMesh_Bodyguard_03@T-Pose
+  m_Name: Bouncer(old)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
