@@ -9,7 +9,7 @@ public class triggerforexit : MonoBehaviour
     private GameObject exitcylinder;
     private void OnTriggerEnter(Collider other)
     {
-        // Kontrollera om det är rätt objekt som nuddar triggerboxen
+
         if (other.CompareTag("Player"))
         {
             exitcylinder.SetActive(true);

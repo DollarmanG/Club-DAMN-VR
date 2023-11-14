@@ -24,7 +24,7 @@ public class Bounceranimscript : MonoBehaviour
     void TalkingtoIdle()
     {
         animbouncer.SetBool("Istalking", false);
-        gamemanager1.IsTalkingAnimationComplete = true; // Sätt flaggan när animationen är klar.
+        gamemanager1.IsTalkingAnimationComplete = true; 
     }
 
     private void OnTriggerEnter(Collider other)

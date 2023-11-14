@@ -27,7 +27,7 @@ public class Bartendersayshello : MonoBehaviour
     {
 
         bartenderwaveing.SetBool("Iswaveing", false);
-        gamemanager1.isWaveingAnimationComplete = true; // Sätt flaggan när animationen är klar.
+        gamemanager1.isWaveingAnimationComplete = true; // Set the flag when the animation is done.
 
     }
 
