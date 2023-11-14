@@ -33,12 +33,13 @@ public class Bottle : MonoBehaviour
             Explode();
         }
     }
-  
+
 
     void Explode()
     {
         GameObject brokenBottle = Instantiate(brokenBottlePrefab, transform.position, Quaternion.identity);
         brokenBottle.GetComponent<BrokenBottle>().RandomVelocities();
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/BottleBrake");
         Destroy(gameObject);
     }
 }

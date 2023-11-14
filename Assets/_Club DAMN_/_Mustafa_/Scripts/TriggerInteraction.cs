@@ -4,20 +4,24 @@ using UnityEngine;
 
 public class TriggerInteraction : MonoBehaviour
 {
-    [SerializeField] GameObject alanWalker;
+    [SerializeField] GameObject alanWalker, xrOriginDj, xrOriginGuest;
 
 
 
     public void HideShowObj()
     {
-        if (alanWalker.activeInHierarchy)
+        if (xrOriginDj.activeInHierarchy)
         {
-            alanWalker.SetActive(false);
+            alanWalker.SetActive(true);
+            xrOriginDj.SetActive(false);
+            xrOriginGuest.SetActive(true);
         }
 
         else
         {
-            alanWalker.SetActive(true);
+            alanWalker.SetActive(false);
+            xrOriginDj.SetActive(true);
+            xrOriginGuest.SetActive(false);
 
         }
     }
@@ -28,6 +32,8 @@ public class TriggerInteraction : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             alanWalker.SetActive(false);
+            xrOriginDj.SetActive(true);
+            xrOriginGuest.SetActive(false);
 
         }
     }
