@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TriggerInteraction : MonoBehaviour
 {
-    [SerializeField] GameObject alanWalker, xrOriginDj, xrOriginGuest;
+    [SerializeField] GameObject alanWalker, xrOriginDj, xrOriginGuest, canvas;
 
 
 
@@ -17,13 +17,7 @@ public class TriggerInteraction : MonoBehaviour
             xrOriginGuest.SetActive(true);
         }
 
-        else
-        {
-            alanWalker.SetActive(false);
-            xrOriginDj.SetActive(true);
-            xrOriginGuest.SetActive(false);
 
-        }
     }
 
 
@@ -31,10 +25,32 @@ public class TriggerInteraction : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            alanWalker.SetActive(false);
-            xrOriginDj.SetActive(true);
-            xrOriginGuest.SetActive(false);
+            canvas.SetActive(true);
 
         }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            canvas.SetActive(false);
+
+        }
+    }
+
+    public void SwitchPlayer()
+    {
+
+        alanWalker.SetActive(false);
+        xrOriginGuest.SetActive(false);
+        xrOriginDj.SetActive(true);
+        canvas.SetActive(false);
+    }
+
+    public void HideCanvas()
+    {
+        canvas.SetActive(false);
+
     }
 }
