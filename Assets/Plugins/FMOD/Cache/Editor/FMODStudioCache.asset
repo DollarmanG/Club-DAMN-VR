@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: FMODSongs/Build/Desktop/Songs.bank
   Name: Songs
   StudioPath: bank:/Songs
-  lastModified: 638355791091554480
+  lastModified: 638356373535850233
   FileSizes:
   - Name: Desktop
     Value: 18188000
@@ -216,7 +216,7 @@ MonoBehaviour:
   Path: FMODSongs/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638355791090418963
+  lastModified: 638356373533879864
   FileSizes:
   - Name: Desktop
     Value: 1577088
@@ -303,7 +303,7 @@ MonoBehaviour:
   - {fileID: -697822394611295908}
   StringsBanks:
   - {fileID: 8807817038393355356}
-  cacheTime: 638355791091554480
+  cacheTime: 638356373535850233
   cacheVersion: 131608
 --- !u!114 &12515180950728466
 MonoBehaviour:
@@ -659,7 +659,7 @@ MonoBehaviour:
   Path: FMODSongs/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638355791090429176
+  lastModified: 638356373533890001
   FileSizes:
   - Name: Desktop
     Value: 1502
