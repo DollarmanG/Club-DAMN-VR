@@ -33,6 +33,7 @@ public class Bounceranimscript : MonoBehaviour
         {
             animbouncer.SetBool("Istalking", true);
             FMODUnity.RuntimeManager.PlayOneShot("event:/Characters/Anthony Leg");
+            Debug.Log("anthony leg");
             triggerBoxForBouncer.enabled = false;
             triggerBoxForId.enabled = true;
 
