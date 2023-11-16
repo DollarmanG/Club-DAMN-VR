@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{380a7a03-0f15-4d13-9474-287e9a44b92b}">
+		<property name="assetPath">
+			<value>Alan Walker Sing Me To Sleep.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>191.61600000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bbf99634-4d06-489c-82fc-7c91c5a74336}</destination>
+		</relationship>
+	</object>
+</objects>

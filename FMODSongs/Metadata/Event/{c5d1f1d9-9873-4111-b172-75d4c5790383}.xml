@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{c5d1f1d9-9873-4111-b172-75d4c5790383}">
 		<property name="name">
-			<value>Elektronomia - Sky High</value>
+			<value>Alan Walker The Spectre</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -67,7 +67,7 @@
 	<object class="MarkerTrack" id="{2296da6c-331b-4c28-9f3e-48f6fe8dbc4d}" />
 	<object class="GroupTrack" id="{3a13e5df-493c-470e-9ae4-906779f83177}">
 		<relationship name="modules">
-			<destination>{03f5bb32-b63c-4354-9192-17e7fc316fbd}</destination>
+			<destination>{2a4d0a01-979a-41bd-b683-ba5a432922e8}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{a2aa0482-2788-4627-892c-f20dc4df5c10}</destination>
@@ -75,7 +75,7 @@
 	</object>
 	<object class="Timeline" id="{a9bcea35-e30a-48d8-82d3-fcbe26aa3973}">
 		<relationship name="modules">
-			<destination>{03f5bb32-b63c-4354-9192-17e7fc316fbd}</destination>
+			<destination>{2a4d0a01-979a-41bd-b683-ba5a432922e8}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterProxy" id="{d0b8a784-6cfb-4187-b377-ba08bf5921f8}">
@@ -113,12 +113,15 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{df1899d5-13b4-465f-bbcf-bbdf8acbd1fd}" />
-	<object class="SingleSound" id="{03f5bb32-b63c-4354-9192-17e7fc316fbd}">
+	<object class="SingleSound" id="{2a4d0a01-979a-41bd-b683-ba5a432922e8}">
 		<property name="length">
-			<value>238.05600000000001</value>
+			<value>180</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>10</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{725bd4d9-b448-4a37-9378-8dd4aea653da}</destination>
+			<destination>{c1ab41c6-73d3-4a7b-890f-ba010375c323}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{a2aa0482-2788-4627-892c-f20dc4df5c10}">

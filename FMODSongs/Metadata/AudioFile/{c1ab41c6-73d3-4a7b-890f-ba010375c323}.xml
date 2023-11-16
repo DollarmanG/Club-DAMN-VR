@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{c1ab41c6-73d3-4a7b-890f-ba010375c323}">
+		<property name="assetPath">
+			<value>Alan Walker The Spectre.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>206.304</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bbf99634-4d06-489c-82fc-7c91c5a74336}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -12,6 +12,7 @@ public class PlayMusic : MonoBehaviour
     private TextMeshProUGUI textColor;
     [SerializeField] int newNumberToplay;
 
+
     private void Start()
     {
         trackToPlay = Random.Range(0, tracks.Count);
@@ -110,6 +111,13 @@ public class PlayMusic : MonoBehaviour
 
 
 
+    }
+
+
+    public void HoverColourChange()
+    {
+        textColor = tracks[newNumberToplay].gameObject.GetComponentInChildren<TextMeshProUGUI>();
+        textColor.color = Color.grey;
     }
     /*
     private void OnDestroy()

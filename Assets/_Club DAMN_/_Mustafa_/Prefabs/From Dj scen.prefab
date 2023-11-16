@@ -3241,6 +3241,7 @@ MonoBehaviour:
   - {fileID: 5584105774872594492}
   - {fileID: 5584105774166091085}
   - {fileID: 5584105773806849553}
+  newNumberToplay: 0
 --- !u!114 &5584105773773493262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3452,7 +3453,7 @@ MonoBehaviour:
       Data2: 1082462583
       Data3: 395026614
       Data4: 1801301813
-    Path: event:/Songs/Warriyo - Mortals (feat. Laura Brehm)
+    Path: event:/Songs/Alan Walker Sing Me To Sleep
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -4165,7 +4166,7 @@ MonoBehaviour:
       Data2: 1091672179
       Data3: -730500431
       Data4: -2096924219
-    Path: event:/Songs/Elektronomia - Sky High
+    Path: event:/Songs/Alan Walker The Spectre
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -4643,7 +4644,7 @@ MonoBehaviour:
       Data2: 1248465714
       Data3: 166605956
       Data4: -115498368
-    Path: event:/Songs/Cartoon - Why We Lose
+    Path: event:/Songs/Alan Walker Fade
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -5676,7 +5677,7 @@ MonoBehaviour:
       Data2: 1150701102
       Data3: -48546384
       Data4: -1126224082
-    Path: event:/Songs/Diffrent Heaven & EH!De - My Heart
+    Path: event:/Songs/Alan Walker Alone
   Event: 
   PlayEvent: 0
   StopEvent: 0
@@ -6607,6 +6608,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alanWalker: {fileID: 0}
+  xrOriginDj: {fileID: 0}
+  xrOriginGuest: {fileID: 0}
+  canvas: {fileID: 0}
 --- !u!1 &5584105775380530046
 GameObject:
   m_ObjectHideFlags: 0
