@@ -16107,6 +16107,7 @@ GameObject:
   - component: {fileID: 489480134}
   - component: {fileID: 489480133}
   - component: {fileID: 489480132}
+  - component: {fileID: 489480136}
   m_Layer: 4
   m_Name: Bottle (3)
   m_TagString: Untagged
@@ -16370,6 +16371,19 @@ LODGroup:
     renderers:
     - renderer: {fileID: 1751457591}
   m_Enabled: 1
+--- !u!65 &489480136
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489480130}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.21, y: 0.76, z: 0.25}
+  m_Center: {x: 0, y: 0.39, z: 0}
 --- !u!1 &492992222
 GameObject:
   m_ObjectHideFlags: 0
@@ -18444,6 +18458,7 @@ GameObject:
   - component: {fileID: 618143940}
   - component: {fileID: 618143939}
   - component: {fileID: 618143938}
+  - component: {fileID: 618143943}
   m_Layer: 0
   m_Name: Bottle (1)
   m_TagString: Untagged
@@ -18707,6 +18722,19 @@ Transform:
   m_Father: {fileID: 2021193180}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &618143943
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618143937}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.21, y: 0.76, z: 0.25}
+  m_Center: {x: 0, y: 0.39, z: 0}
 --- !u!1 &634046206
 GameObject:
   m_ObjectHideFlags: 0
@@ -25708,6 +25736,7 @@ GameObject:
   - component: {fileID: 772345830}
   - component: {fileID: 772345829}
   - component: {fileID: 772345828}
+  - component: {fileID: 772345832}
   m_Layer: 4
   m_Name: Bottle (4)
   m_TagString: Untagged
@@ -25971,6 +26000,19 @@ LODGroup:
     renderers:
     - renderer: {fileID: 241954333}
   m_Enabled: 1
+--- !u!65 &772345832
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772345826}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.21, y: 0.76, z: 0.25}
+  m_Center: {x: 0, y: 0.39, z: 0}
 --- !u!1 &800288030
 GameObject:
   m_ObjectHideFlags: 0
@@ -50037,6 +50079,7 @@ GameObject:
   - component: {fileID: 1643921260}
   - component: {fileID: 1643921259}
   - component: {fileID: 1643921258}
+  - component: {fileID: 1643921263}
   m_Layer: 4
   m_Name: Bottle (2)
   m_TagString: Untagged
@@ -50300,6 +50343,19 @@ Transform:
   m_Father: {fileID: 2021193180}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1643921263
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643921257}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.21, y: 0.76, z: 0.25}
+  m_Center: {x: 0, y: 0.39, z: 0}
 --- !u!1 &1647433909
 GameObject:
   m_ObjectHideFlags: 0
@@ -52164,6 +52220,7 @@ GameObject:
   - component: {fileID: 1801705573}
   - component: {fileID: 1801705572}
   - component: {fileID: 1801705571}
+  - component: {fileID: 1801705575}
   m_Layer: 4
   m_Name: Bottle (5)
   m_TagString: Untagged
@@ -52427,6 +52484,19 @@ LODGroup:
     renderers:
     - renderer: {fileID: 225400485}
   m_Enabled: 1
+--- !u!65 &1801705575
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801705569}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.21, y: 0.76, z: 0.25}
+  m_Center: {x: 0, y: 0.39, z: 0}
 --- !u!1 &1815435851
 GameObject:
   m_ObjectHideFlags: 0

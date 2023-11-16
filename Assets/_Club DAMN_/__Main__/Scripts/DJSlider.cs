@@ -5,7 +5,6 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.XR.Interaction.Toolkit;
-using static UnityEditor.ShaderData;
 
 public class DJSlider : MonoBehaviour
 {
