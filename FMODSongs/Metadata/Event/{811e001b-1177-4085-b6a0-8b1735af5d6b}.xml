@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{811e001b-1177-4085-b6a0-8b1735af5d6b}">
 		<property name="name">
-			<value>Warriyo - Mortals (feat. Laura Brehm)</value>
+			<value>Alan Walker Sing Me To Sleep</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -68,7 +68,7 @@
 	<object class="MarkerTrack" id="{14ca0253-312d-4b03-8f5c-5d7de1ef87e0}" />
 	<object class="GroupTrack" id="{87372547-58f4-4d86-bdf6-43219509d7cb}">
 		<relationship name="modules">
-			<destination>{1042bbde-3578-4719-a56c-9d44668d1db8}</destination>
+			<destination>{a8bc6a82-f6c1-4586-b3d0-0a84547a8d4a}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{67fa31e1-2b28-41bb-836a-254c15e5c5f7}</destination>
@@ -76,7 +76,7 @@
 	</object>
 	<object class="Timeline" id="{b1189818-ef3e-4bb7-a49b-1cf9538be3c1}">
 		<relationship name="modules">
-			<destination>{1042bbde-3578-4719-a56c-9d44668d1db8}</destination>
+			<destination>{a8bc6a82-f6c1-4586-b3d0-0a84547a8d4a}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterProxy" id="{e6f29e90-67cc-4684-b6fb-082b8eb3ab9e}">
@@ -119,12 +119,15 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cb53f346-08f2-414a-82ab-9c87f5844fa3}" />
-	<object class="SingleSound" id="{1042bbde-3578-4719-a56c-9d44668d1db8}">
+	<object class="SingleSound" id="{a8bc6a82-f6c1-4586-b3d0-0a84547a8d4a}">
 		<property name="length">
-			<value>230.03999999999999</value>
+			<value>180</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>5</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{366f0979-9690-46dc-a65b-8b1ee21585be}</destination>
+			<destination>{380a7a03-0f15-4d13-9474-287e9a44b92b}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{67fa31e1-2b28-41bb-836a-254c15e5c5f7}">
