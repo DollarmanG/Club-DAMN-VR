@@ -10,6 +10,7 @@ public class PlayMusic : MonoBehaviour
     int trackToPlay = 0;
     private bool isPaused = true;
     private TextMeshProUGUI textColor;
+    [SerializeField] int newNumberToplay;
 
     private void Start()
     {
@@ -46,7 +47,8 @@ public class PlayMusic : MonoBehaviour
     }
     public void PauseCurrentTrack()
     {
-        FMOD.RESULT result = tracks[trackToPlay].EventInstance.setPaused(true);
+        tracks[trackToPlay].EventInstance.setPaused(true);
+        tracks[newNumberToplay].EventInstance.setPaused(true);
         textColor.color = Color.yellow;
 
 
@@ -54,29 +56,26 @@ public class PlayMusic : MonoBehaviour
 
     public void ResumeCurrentTrack()
     {
-        FMOD.RESULT result = tracks[trackToPlay].EventInstance.setPaused(false);
+        tracks[trackToPlay].EventInstance.setPaused(false);
+        tracks[newNumberToplay].EventInstance.setPaused(false);
         textColor.color = Color.green;
 
     }
     public void StopCurrentTrack()
     {
         tracks[trackToPlay].Stop();
+        tracks[newNumberToplay].Stop();
         textColor.color = Color.white;
     }
 
     public void PlayButton(int numberPlay)
     {
-        trackToPlay = numberPlay;
-        //&& SongsManager.isOff
-        if (!tracks[trackToPlay].IsPlaying())
-        {
+
+        newNumberToplay = numberPlay;
 
 
 
-            tracks[trackToPlay].Play();
-            textColor.color = Color.green;
-        }
-        else if (tracks[trackToPlay].IsPlaying())
+        if (!tracks[numberPlay].IsPlaying())
         {
 
             foreach (var item in tracks)
@@ -84,7 +83,24 @@ public class PlayMusic : MonoBehaviour
                 item.Stop();
                 item.gameObject.GetComponentInChildren<TextMeshProUGUI>().color = Color.white; ;
 
-                //  textColor.color = Color.white;
+                textColor.color = Color.white;
+
+            }
+
+            tracks[numberPlay].Play();
+            textColor = tracks[numberPlay].gameObject.GetComponentInChildren<TextMeshProUGUI>();
+            textColor.color = Color.green;
+
+        }
+        else if (tracks[numberPlay].IsPlaying())
+        {
+
+            foreach (var item in tracks)
+            {
+                item.Stop();
+                item.gameObject.GetComponentInChildren<TextMeshProUGUI>().color = Color.white; ;
+
+                textColor.color = Color.white;
 
             }
 

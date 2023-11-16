@@ -37,9 +37,18 @@ public class MusicChanger : MonoBehaviour
 
     void VolumeSlider()
     {
-        float normalizedValue = Mathf.InverseLerp(volumeMinPoint.position.z, volumeMaxPoint.position.z, volumeCurrentPoint.position.z);
+        float totalDistance = Vector3.Distance(volumeMinPoint.position, volumeMaxPoint.position);
 
-        volumeFloatValue = normalizedValue;
+
+        float distanceAC = Vector3.Distance(volumeMaxPoint.position, volumeCurrentPoint.position);
+
+
+        float t = Mathf.Clamp01(distanceAC / totalDistance);
+
+
+        float result = Mathf.Lerp(-80f, 10f, t);
+
+        volumeFloatValue = result;
         music.setVolume(Volume(volumeFloatValue));
     }
 
