@@ -20,7 +20,8 @@ public class MusicChanger : MonoBehaviour
     private void Awake()
     {
 
-        music = FMODUnity.RuntimeManager.GetBus("bus:/Music");
+        //music = FMODUnity.RuntimeManager.GetBus("bus:/Music");
+        FMODUnity.RuntimeManager.GetBus("bus:/Music");
     }
 
 
