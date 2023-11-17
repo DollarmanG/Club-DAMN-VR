@@ -80,7 +80,7 @@ https://github.com/DollarmanG/Club-DAMN-VR
 
   
 
-5. **Commit och push:** När du är klar med ändringar, gör commit och pusha till det centrala Git-repot. 
+5. **Commit och push:** När du är klar med ändringar, gör commit och pusha till "Developer". Jobba altid från din egna branch innan du mergar till "Developer".
 
   
 
