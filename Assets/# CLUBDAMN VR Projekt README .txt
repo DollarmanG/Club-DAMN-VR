@@ -74,7 +74,9 @@ https://github.com/DollarmanG/Club-DAMN-VR
     - När du är helt klar med ett objekt i appen spara det som en prefab under mappen "Prefabs".
   
 
-4. **Testa ändringar:** Kör projektet i Unity för att testa och säkerställa att ändringar fungerar som förväntat. Testa även med VR så att du fungerar bra där. 
+4. **Testa ändringar:** Kör projektet i Unity för att testa och säkerställa att ändringar fungerar som förväntat. Testa även med VR så att du fungerar bra där.
+
+	(1). **Versionshantering med Unity:** Innan du commitar och pushar dina ändringar, se till att uppdatera versionen utav projektet i Unity. 
 
   
 
